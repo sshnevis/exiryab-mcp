@@ -34,6 +34,7 @@ and map location (Google Maps, Neshan, Balad), all from Claude, Cursor or Copilo
 - **Use when:** the user wants to find a specific doctor or the best doctors of a specialty in an Iranian city, with address, phone, hours and map.
 - **Do not use when:** the user needs medical advice, or wants to book or pay online.
 - **Output:** compact JSON. A `best_match` plus `alternatives`, a `confidence` (`high`, `medium`, `low`, `ranking`, `none`) and `warnings`. Clinic `weekly_hours` maps an English weekday to shifts (`[]` = closed).
+- **Skill:** [skills/exiryab/SKILL.md](https://github.com/sshnevis/exiryab-mcp/blob/main/skills/exiryab/SKILL.md) has the usage rules for agents.
 - **Machine-readable:** [server.json](https://github.com/sshnevis/exiryab-mcp/blob/main/server.json), the site's [llms.txt](https://exiryab.com/llms.txt), and the catalog of Iranian MCP servers [awesome-iran-mcp](https://github.com/sepehr071/awesome-iran-mcp).
 
 ## Why
