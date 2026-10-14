@@ -98,7 +98,7 @@ def doctor(d: dict[str, Any], bio_chars: int | None = None) -> dict[str, Any]:
             "specialty": (d.get("specialty") or {}).get("name"),
             "medical_council_number": d.get("medicalCouncilNumber"),
             "url": d.get("profileUrl"),
-            "photo": d.get("photoUrl"),
+            "image": d.get("photoUrl"),
             "verified": d.get("verified"),
             "managed_by_doctor": d.get("mobileVerified"),
             "featured": d.get("isFeatured"),

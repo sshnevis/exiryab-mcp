@@ -31,7 +31,7 @@ async def test_name_search_sends_every_filter_and_returns_compact_cards(client, 
     assert best["id"] == 36370 and best["name"] == "دکتر موسی ملک محمدی"
     assert best["url"].startswith("https://exiryab.com/dr/36370-")
     assert best["match"]["kind"] == "name"
-    assert "fullName" not in best and "photo" not in best  # camelCase gone, empty fields dropped
+    assert "fullName" not in best and "image" not in best  # camelCase gone, empty fields dropped
     assert best["verified"] is False  # False is kept: it means "not verified", not "unknown"
     assert [a["match"]["kind"] for a in data["alternatives"]] == ["similar", "similar"]
     assert data["search_url"].startswith("https://exiryab.com/search?")
