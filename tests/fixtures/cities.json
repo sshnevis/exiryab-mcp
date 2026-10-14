@@ -1,0 +1,45 @@
+{
+  "total": 8,
+  "items": [
+    {
+      "id": 194,
+      "name": "شیراز",
+      "slug": "شیراز",
+      "province": "فارس",
+      "doctorCount": 4597,
+      "url": "https://exiryab.com/شیراز/"
+    },
+    {
+      "id": 136,
+      "name": "شیروان",
+      "slug": "شیروان",
+      "province": "خراسان شمالی",
+      "doctorCount": 68,
+      "url": "https://exiryab.com/شیروان/"
+    },
+    {
+      "id": 929,
+      "name": "شیرگاه",
+      "slug": "شیرگاه",
+      "province": "مازندران",
+      "doctorCount": 7,
+      "url": "https://exiryab.com/شیرگاه/"
+    },
+    {
+      "id": 1101,
+      "name": "شیراز- مرودشت",
+      "slug": "شیراز-مرودشت",
+      "province": "فارس",
+      "doctorCount": 1,
+      "url": "https://exiryab.com/شیراز-مرودشت/"
+    },
+    {
+      "id": 1138,
+      "name": "شیرین سو",
+      "slug": "شیرین-سو",
+      "province": "همدان",
+      "doctorCount": 1,
+      "url": "https://exiryab.com/شیرین-سو/"
+    }
+  ]
+}

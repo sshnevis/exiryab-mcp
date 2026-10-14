@@ -1,0 +1,38 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.sshnevis/exiryab-mcp",
+  "title": "ExirYab",
+  "description": "Official read-only ExirYab: find Iranian doctors by name, city and specialty, with clinics and maps.",
+  "repository": {
+    "url": "https://github.com/sshnevis/exiryab-mcp",
+    "source": "github"
+  },
+  "websiteUrl": "https://exiryab.com",
+  "version": "0.1.0",
+  "packages": [
+    {
+      "registryType": "pypi",
+      "registryBaseUrl": "https://pypi.org",
+      "identifier": "exiryab-mcp",
+      "version": "0.1.0",
+      "runtimeHint": "uvx",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "name": "EXIRYAB_MCP_PROXY",
+          "description": "Optional HTTP proxy URL for every request. System proxy settings are ignored.",
+          "isRequired": false,
+          "isSecret": false
+        },
+        {
+          "name": "EXIRYAB_MCP_BASE_URL",
+          "description": "Optional API base URL (default https://exiryab.com), e.g. a local ExirYab for development.",
+          "isRequired": false,
+          "isSecret": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,229 @@
+{
+  "query": {
+    "name": "موسی ملک محمدی",
+    "city": {
+      "id": 87,
+      "name": "تهران",
+      "slug": "تهران",
+      "province": "تهران",
+      "url": "https://exiryab.com/تهران/"
+    },
+    "province": null,
+    "specialty": {
+      "id": 9,
+      "name": "قلب و عروق",
+      "slug": "قلب-و-عروق",
+      "url": "https://exiryab.com/تخصص/قلب-و-عروق/"
+    },
+    "relaxed": []
+  },
+  "totalMatches": 1,
+  "confidence": "high",
+  "bestMatch": {
+    "id": 36370,
+    "fullName": "دکتر موسی ملک محمدی",
+    "firstName": "دکتر",
+    "lastName": "موسی ملک محمدی",
+    "gender": "male",
+    "specialty": {
+      "id": 9,
+      "name": "قلب و عروق",
+      "slug": "قلب-و-عروق",
+      "url": "https://exiryab.com/تخصص/قلب-و-عروق/"
+    },
+    "medicalCouncilNumber": null,
+    "profileUrl": "https://exiryab.com/dr/36370-دکتر-موسی-ملک-محمدی-قلب-و-عروق-تهران/",
+    "photoUrl": null,
+    "bio": null,
+    "verified": false,
+    "mobileVerified": false,
+    "isFeatured": false,
+    "suggestCount": 1,
+    "visitCount": 275,
+    "insurances": [],
+    "tags": [],
+    "website": null,
+    "instagram": null,
+    "onlineBookingUrl": null,
+    "location": null,
+    "clinics": [
+      {
+        "id": 36370,
+        "isPrimary": false,
+        "facilityType": "office",
+        "city": {
+          "id": 87,
+          "name": "تهران",
+          "slug": "تهران",
+          "province": "تهران",
+          "url": "https://exiryab.com/تهران/"
+        },
+        "district": null,
+        "address": "م قدس-خ باهنر-جنب شهرداری منطقه یک-ک سعادت-پ99-آزمایشگاه فارابی",
+        "phones": [
+          "02122719776"
+        ],
+        "location": null,
+        "workingHours": null,
+        "weeklyHours": []
+      }
+    ],
+    "match": {
+      "kind": "name",
+      "score": 1,
+      "nameScore": 1,
+      "cityMatched": true,
+      "specialtyMatched": true
+    }
+  },
+  "alternatives": [
+    {
+      "id": 36581,
+      "fullName": "دکتر هدا حکیمیان",
+      "firstName": "دکتر",
+      "lastName": "هدا حکیمیان",
+      "gender": "female",
+      "specialty": {
+        "id": 9,
+        "name": "قلب و عروق",
+        "slug": "قلب-و-عروق",
+        "url": "https://exiryab.com/تخصص/قلب-و-عروق/"
+      },
+      "medicalCouncilNumber": "85236",
+      "profileUrl": "https://exiryab.com/dr/36581-دکتر-هدا-حکیمیان-قلب-و-عروق-تهران/",
+      "photoUrl": null,
+      "bio": "خدمات تخصصی :\nاکوکاردیوگرافی پیشرفته TDI\nهولتر فشار خون / هولتر ریتم\nاکوی زنان باردار\nپزشک در بیمارستان های زیر هم ویزیت انجام میدهند :\nبیمارستان تخصصی و فوق تخصصی خاتم الانبیاء\nبیمارستان فوق تخصصی عدل",
+      "verified": true,
+      "mobileVerified": true,
+      "isFeatured": false,
+      "suggestCount": 0,
+      "visitCount": 1158,
+      "insurances": [],
+      "tags": [],
+      "website": null,
+      "instagram": "dr.hoda.hakimian@",
+      "onlineBookingUrl": null,
+      "location": {
+        "latitude": 35.764479,
+        "longitude": 51.419167,
+        "address": "خیابان جردن ، بالاتر از میرداماد ، خیابان آناهیتا ، پلاک 5 ، طبقه اول ، واحد 1",
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=35.764479,51.419167",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=35.764479,51.419167",
+        "neshanUrl": "https://neshan.org/maps/@35.764479,51.419167,16z,0p",
+        "baladUrl": "https://balad.ir/location?latitude=35.764479&longitude=51.419167&zoom=16"
+      },
+      "clinics": [
+        {
+          "id": 36581,
+          "isPrimary": false,
+          "facilityType": "office",
+          "city": {
+            "id": 87,
+            "name": "تهران",
+            "slug": "تهران",
+            "province": "تهران",
+            "url": "https://exiryab.com/تهران/"
+          },
+          "district": null,
+          "address": "خیابان جردن ، بالاتر از میرداماد ، خیابان آناهیتا ، پلاک 5 ، طبقه اول ، واحد 1",
+          "phones": [
+            "02186080031"
+          ],
+          "location": {
+            "latitude": 35.764479,
+            "longitude": 51.419167,
+            "address": "خیابان جردن ، بالاتر از میرداماد ، خیابان آناهیتا ، پلاک 5 ، طبقه اول ، واحد 1",
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=35.764479,51.419167",
+            "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=35.764479,51.419167",
+            "neshanUrl": "https://neshan.org/maps/@35.764479,51.419167,16z,0p",
+            "baladUrl": "https://balad.ir/location?latitude=35.764479&longitude=51.419167&zoom=16"
+          },
+          "workingHours": null,
+          "weeklyHours": []
+        }
+      ],
+      "match": {
+        "kind": "similar",
+        "score": 0,
+        "nameScore": 0,
+        "cityMatched": true,
+        "specialtyMatched": true
+      }
+    },
+    {
+      "id": 15112,
+      "fullName": "دکتر سیدمختار جاودان نژاد",
+      "firstName": "دکتر سیدمختار",
+      "lastName": "جاودان نژاد",
+      "gender": "unknown",
+      "specialty": {
+        "id": 9,
+        "name": "قلب و عروق",
+        "slug": "قلب-و-عروق",
+        "url": "https://exiryab.com/تخصص/قلب-و-عروق/"
+      },
+      "medicalCouncilNumber": "68570",
+      "profileUrl": "https://exiryab.com/dr/15112-دکتر-سیدمختار-جاودان-نژاد-قلب-و-عروق-تهران/",
+      "photoUrl": null,
+      "bio": null,
+      "verified": true,
+      "mobileVerified": true,
+      "isFeatured": false,
+      "suggestCount": 0,
+      "visitCount": 998,
+      "insurances": [],
+      "tags": [],
+      "website": null,
+      "instagram": null,
+      "onlineBookingUrl": null,
+      "location": {
+        "latitude": 35.692697,
+        "longitude": 51.486864,
+        "address": "خیابان پیروزی , بین سوم و چهارم نیروی هوایی , جنب ساختمان پزشکان نیکان, پلاک 93, طبقه سوم, واحد 6",
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=35.692697,51.486864",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=35.692697,51.486864",
+        "neshanUrl": "https://neshan.org/maps/@35.692697,51.486864,16z,0p",
+        "baladUrl": "https://balad.ir/location?latitude=35.692697&longitude=51.486864&zoom=16"
+      },
+      "clinics": [
+        {
+          "id": 15112,
+          "isPrimary": false,
+          "facilityType": "office",
+          "city": {
+            "id": 87,
+            "name": "تهران",
+            "slug": "تهران",
+            "province": "تهران",
+            "url": "https://exiryab.com/تهران/"
+          },
+          "district": null,
+          "address": "خیابان پیروزی , بین سوم و چهارم نیروی هوایی , جنب ساختمان پزشکان نیکان, پلاک 93, طبقه سوم, واحد 6",
+          "phones": [
+            "02177462062"
+          ],
+          "location": {
+            "latitude": 35.692697,
+            "longitude": 51.486864,
+            "address": "خیابان پیروزی , بین سوم و چهارم نیروی هوایی , جنب ساختمان پزشکان نیکان, پلاک 93, طبقه سوم, واحد 6",
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=35.692697,51.486864",
+            "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=35.692697,51.486864",
+            "neshanUrl": "https://neshan.org/maps/@35.692697,51.486864,16z,0p",
+            "baladUrl": "https://balad.ir/location?latitude=35.692697&longitude=51.486864&zoom=16"
+          },
+          "workingHours": null,
+          "weeklyHours": []
+        }
+      ],
+      "match": {
+        "kind": "similar",
+        "score": 0,
+        "nameScore": 0,
+        "cityMatched": true,
+        "specialtyMatched": true
+      }
+    }
+  ],
+  "searchUrl": "https://exiryab.com/search?city=%D8%AA%D9%87%D8%B1%D8%A7%D9%86&specialty=%D9%82%D9%84%D8%A8-%D9%88-%D8%B9%D8%B1%D9%88%D9%82&q=%D9%85%D9%88%D8%B3%DB%8C%20%D9%85%D9%84%DA%A9%20%D9%85%D8%AD%D9%85%D8%AF%DB%8C",
+  "warnings": []
+}

@@ -1,0 +1,141 @@
+{
+  "query": {
+    "name": "سینا شیری همدانی",
+    "city": null,
+    "province": null,
+    "specialty": null,
+    "relaxed": []
+  },
+  "totalMatches": 1,
+  "confidence": "high",
+  "bestMatch": {
+    "id": 28475,
+    "fullName": "دکتر سینا شیری همدانی",
+    "firstName": "دکتر",
+    "lastName": "سینا شیری همدانی",
+    "gender": "male",
+    "specialty": {
+      "id": 62,
+      "name": "کودکان (اطفال)",
+      "slug": "کودکان-(اطفال)",
+      "url": "https://exiryab.com/تخصص/کودکان-(اطفال)/"
+    },
+    "medicalCouncilNumber": "189519",
+    "profileUrl": "https://exiryab.com/dr/28475-دکتر-سینا-شیری-همدانی-کودکان-(اطفال)-قزوین/",
+    "photoUrl": null,
+    "bio": "کودکان (اطفال)\nسوابق پژوهشی:\n- ثبت اختراع کشوری ¬در سال 1391\n- طراح و بنیان گذار نرم افزار احساس نگر – تقدیر شده توسط دکتر توحید سیف برقی\n- طراح و بنیان گذار نرم افزار پرونده الکترونیک سرپایی تحت برند \"اکسیر\" جهت استفاده از کلینیک ها و مطب ها با قابلیت خروجی تحقیقاتی – ثبت شده در وزارت بهداشت سال 1399\n- ¬طراح نرم افزار بخش ویزیت تحقیقات محور در نرم افزار اکسیر – ثبت فنی در وزارت فناوری ارتباطات سال 1398\n- تقدیرنامه از دانشگاه علوم پزشکی شیراز از طراحی نرم افزار کیلینیکال اکسیر در جشنواره استارت اپ های سلامت اسفند 1397\n- برگزیده حوزه نرم افزار های پرونده الکترونیک سرپایی در جشنواره رسانه های دیجیتال\n- مجری سامانه ثبت بیماران بیماری های کف لگن زنان در سال 1395 تحت سرپرستی خانم دکتر قنبری - بیمارستان امام خمینی (ره)\n- مجری و برنامه نویسی سامانه ثبت بیماران جراحی ارتوپدی Hip و Knee در سال 1394 - تحت سرپرستی پروژه توسط دکتر مرتضوی بیمارستان امام خمینی (ره)\n- مجری و برنامه نویسی سامانه ثبت بیماران سرپایی ارتوپدی تحت سرپرستی دکتر مرتضوی و دکتر زارعی در سال 1398 – بیمارستان امام خمینی (ره)\n- طراحی سامانه داوری مقالات از ثبت مقاله، معیارهای داوری و خروجی و تعیین تکلیف مقالات جهت استفاده در کنگره ها و همایش های پژوهش محور\n- عضو تیم اجرایی هجدهمین کنگره علمی دانشگاه های علوم پزشکی های کشور در…",
+    "verified": true,
+    "mobileVerified": true,
+    "isFeatured": false,
+    "suggestCount": 2,
+    "visitCount": 1939,
+    "insurances": [
+      "بیمه سلامت",
+      "بیمه تامین اجتماعی",
+      "بیمه نیروی مسلح"
+    ],
+    "tags": [
+      "پایش رشد",
+      "بیماری های کودکان (زیر 18سال)"
+    ],
+    "website": null,
+    "instagram": null,
+    "onlineBookingUrl": null,
+    "location": {
+      "latitude": 36.275453,
+      "longitude": 50.024775,
+      "address": "بیمارستان قدس",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=36.275453,50.024775",
+      "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=36.275453,50.024775",
+      "neshanUrl": "https://neshan.org/maps/@36.275453,50.024775,16z,0p",
+      "baladUrl": "https://balad.ir/location?latitude=36.275453&longitude=50.024775&zoom=16"
+    },
+    "clinics": [
+      {
+        "id": 199986,
+        "isPrimary": false,
+        "facilityType": "hospital",
+        "city": {
+          "id": 210,
+          "name": "قزوین",
+          "slug": "قزوین",
+          "province": "قزوین",
+          "url": "https://exiryab.com/قزوین/"
+        },
+        "district": null,
+        "address": "بیمارستان قدس",
+        "phones": [
+          "02833334807"
+        ],
+        "location": {
+          "latitude": 36.275453,
+          "longitude": 50.024775,
+          "address": "بیمارستان قدس",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=36.275453,50.024775",
+          "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=36.275453,50.024775",
+          "neshanUrl": "https://neshan.org/maps/@36.275453,50.024775,16z,0p",
+          "baladUrl": "https://balad.ir/location?latitude=36.275453&longitude=50.024775&zoom=16"
+        },
+        "workingHours": "شنبه و دوشنبه 17-19",
+        "weeklyHours": [
+          {
+            "day": "saturday",
+            "dayFa": "شنبه",
+            "closed": false,
+            "shifts": [
+              "17:00-19:00"
+            ]
+          },
+          {
+            "day": "sunday",
+            "dayFa": "یکشنبه",
+            "closed": true,
+            "shifts": []
+          },
+          {
+            "day": "monday",
+            "dayFa": "دوشنبه",
+            "closed": false,
+            "shifts": [
+              "17:30-19:00"
+            ]
+          },
+          {
+            "day": "tuesday",
+            "dayFa": "سه‌شنبه",
+            "closed": true,
+            "shifts": []
+          },
+          {
+            "day": "wednesday",
+            "dayFa": "چهارشنبه",
+            "closed": true,
+            "shifts": []
+          },
+          {
+            "day": "thursday",
+            "dayFa": "پنجشنبه",
+            "closed": true,
+            "shifts": []
+          },
+          {
+            "day": "friday",
+            "dayFa": "جمعه",
+            "closed": true,
+            "shifts": []
+          }
+        ]
+      }
+    ],
+    "match": {
+      "kind": "name",
+      "score": 1,
+      "nameScore": 1,
+      "cityMatched": null,
+      "specialtyMatched": null
+    }
+  },
+  "alternatives": [],
+  "searchUrl": "https://exiryab.com/search?q=%D8%B3%DB%8C%D9%86%D8%A7%20%D8%B4%DB%8C%D8%B1%DB%8C%20%D9%87%D9%85%D8%AF%D8%A7%D9%86%DB%8C",
+  "warnings": []
+}

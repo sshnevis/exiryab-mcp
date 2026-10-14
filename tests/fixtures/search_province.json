@@ -1,0 +1,187 @@
+{
+  "query": {
+    "name": null,
+    "city": null,
+    "province": "فارس",
+    "specialty": {
+      "id": 62,
+      "name": "کودکان (اطفال)",
+      "slug": "کودکان-(اطفال)",
+      "url": "https://exiryab.com/تخصص/کودکان-(اطفال)/"
+    },
+    "relaxed": []
+  },
+  "totalMatches": 219,
+  "confidence": "ranking",
+  "bestMatch": {
+    "id": 20133,
+    "fullName": "دکتر حمیدرضا پارسا",
+    "firstName": "دکتر",
+    "lastName": "حمیدرضا پارسا",
+    "gender": "male",
+    "specialty": {
+      "id": 62,
+      "name": "کودکان (اطفال)",
+      "slug": "کودکان-(اطفال)",
+      "url": "https://exiryab.com/تخصص/کودکان-(اطفال)/"
+    },
+    "medicalCouncilNumber": "83228",
+    "profileUrl": "https://exiryab.com/dr/20133-دکتر-حمیدرضا-پارسا-کودکان-(اطفال)-شیراز/",
+    "photoUrl": null,
+    "bio": "«کلینیک کودکان مهر مادر»\n✓حضور متخصص کودکان همه روزهای هفته (365 روز سال)\n✓مشاوره تلفنی با متخصص کودکان(365 روز سال)\n✓پایش رشد و نمو کودکان\n✓درمان مشکلات تنفسی با داروهای استنشاقی\n✓چک زردی نوزادان بدون خونگیری\n✓درمان زردی با فتوتراپی خانگی",
+    "verified": true,
+    "mobileVerified": true,
+    "isFeatured": false,
+    "suggestCount": 0,
+    "visitCount": 905,
+    "insurances": [],
+    "tags": [],
+    "website": null,
+    "instagram": null,
+    "onlineBookingUrl": null,
+    "location": {
+      "latitude": 29.640429,
+      "longitude": 52.461063,
+      "address": "شیراز میدان معلم نبش کوچه 2 شهید رجایی ساختمان سما پلاک 405 . مجتمع تخصصی کودکان مهر مادر",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=29.640429,52.461063",
+      "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=29.640429,52.461063",
+      "neshanUrl": "https://neshan.org/maps/@29.640429,52.461063,16z,0p",
+      "baladUrl": "https://balad.ir/location?latitude=29.640429&longitude=52.461063&zoom=16"
+    },
+    "clinics": [
+      {
+        "id": 20133,
+        "isPrimary": false,
+        "facilityType": "office",
+        "city": {
+          "id": 194,
+          "name": "شیراز",
+          "slug": "شیراز",
+          "province": "فارس",
+          "url": "https://exiryab.com/شیراز/"
+        },
+        "district": null,
+        "address": "شیراز میدان معلم نبش کوچه 2 شهید رجایی ساختمان سما پلاک 405 . مجتمع تخصصی کودکان مهر مادر",
+        "phones": [
+          "07136304464"
+        ],
+        "location": {
+          "latitude": 29.640429,
+          "longitude": 52.461063,
+          "address": "شیراز میدان معلم نبش کوچه 2 شهید رجایی ساختمان سما پلاک 405 . مجتمع تخصصی کودکان مهر مادر",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=29.640429,52.461063",
+          "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=29.640429,52.461063",
+          "neshanUrl": "https://neshan.org/maps/@29.640429,52.461063,16z,0p",
+          "baladUrl": "https://balad.ir/location?latitude=29.640429&longitude=52.461063&zoom=16"
+        },
+        "workingHours": null,
+        "weeklyHours": []
+      }
+    ],
+    "match": {
+      "kind": "ranking",
+      "score": 1,
+      "nameScore": null,
+      "cityMatched": true,
+      "specialtyMatched": true
+    }
+  },
+  "alternatives": [
+    {
+      "id": 61000,
+      "fullName": "دکتر ابوالفضل خوشدل",
+      "firstName": "دکتر ابوالفضل",
+      "lastName": "خوشدل",
+      "gender": "male",
+      "specialty": {
+        "id": 62,
+        "name": "کودکان (اطفال)",
+        "slug": "کودکان-(اطفال)",
+        "url": "https://exiryab.com/تخصص/کودکان-(اطفال)/"
+      },
+      "medicalCouncilNumber": "38210",
+      "profileUrl": "https://exiryab.com/dr/61000-دکتر-ابوالفضل-خوشدل-کودکان-(اطفال)-شیراز/",
+      "photoUrl": null,
+      "bio": null,
+      "verified": false,
+      "mobileVerified": false,
+      "isFeatured": false,
+      "suggestCount": 0,
+      "visitCount": 1353,
+      "insurances": [],
+      "tags": [],
+      "website": null,
+      "instagram": null,
+      "onlineBookingUrl": null,
+      "location": {
+        "latitude": 29.638533,
+        "longitude": 52.564255,
+        "address": "ابتدای شهرک گلشن، بالاتر از دروازه قرآن",
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=29.638533,52.564255",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=29.638533,52.564255",
+        "neshanUrl": "https://neshan.org/maps/@29.638533,52.564255,16z,0p",
+        "baladUrl": "https://balad.ir/location?latitude=29.638533&longitude=52.564255&zoom=16"
+      },
+      "clinics": [
+        {
+          "id": 66705,
+          "isPrimary": false,
+          "facilityType": "office",
+          "city": {
+            "id": 194,
+            "name": "شیراز",
+            "slug": "شیراز",
+            "province": "فارس",
+            "url": "https://exiryab.com/شیراز/"
+          },
+          "district": null,
+          "address": "ابتدای شهرک گلشن، بالاتر از دروازه قرآن",
+          "phones": [
+            "07132279701"
+          ],
+          "location": {
+            "latitude": 29.638533,
+            "longitude": 52.564255,
+            "address": "ابتدای شهرک گلشن، بالاتر از دروازه قرآن",
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=29.638533,52.564255",
+            "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=29.638533,52.564255",
+            "neshanUrl": "https://neshan.org/maps/@29.638533,52.564255,16z,0p",
+            "baladUrl": "https://balad.ir/location?latitude=29.638533&longitude=52.564255&zoom=16"
+          },
+          "workingHours": null,
+          "weeklyHours": []
+        },
+        {
+          "id": 200045,
+          "isPrimary": false,
+          "facilityType": "office",
+          "city": {
+            "id": 194,
+            "name": "شیراز",
+            "slug": "شیراز",
+            "province": "فارس",
+            "url": "https://exiryab.com/شیراز/"
+          },
+          "district": null,
+          "address": "شیراز، قدوسی غربی، حدفاصل کوچه 21 و 23، درمانگاه میلاد",
+          "phones": [
+            "07136302065",
+            "09308913090"
+          ],
+          "location": null,
+          "workingHours": null,
+          "weeklyHours": []
+        }
+      ],
+      "match": {
+        "kind": "ranking",
+        "score": 1,
+        "nameScore": null,
+        "cityMatched": true,
+        "specialtyMatched": true
+      }
+    }
+  ],
+  "searchUrl": "https://exiryab.com/search?specialty=%DA%A9%D9%88%D8%AF%DA%A9%D8%A7%D9%86-%28%D8%A7%D8%B7%D9%81%D8%A7%D9%84%29",
+  "warnings": []
+}

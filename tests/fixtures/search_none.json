@@ -1,0 +1,15 @@
+{
+  "query": {
+    "name": "زززززز",
+    "city": null,
+    "province": null,
+    "specialty": null,
+    "relaxed": []
+  },
+  "totalMatches": 0,
+  "confidence": "none",
+  "bestMatch": null,
+  "alternatives": [],
+  "searchUrl": "https://exiryab.com/search?q=%D8%B2%D8%B2%D8%B2%D8%B2%D8%B2%D8%B2",
+  "warnings": []
+}
