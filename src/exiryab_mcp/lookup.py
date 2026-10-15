@@ -6,7 +6,7 @@ from typing import Annotated, Any
 
 from pydantic import Field
 
-from .http import fetch
+from .http import as_object, fetch
 from .registry import tool
 
 Query = Annotated[
@@ -29,7 +29,7 @@ async def ey_cities(
     Use it to find the exact Persian city name for ey_search_doctors(city=...), or to check whether
     a town is covered. `total` counts every match, not only the ones returned.
     """
-    body = await fetch("/api/v1/cities", {"q": query, "limit": limit})
+    body = as_object(await fetch("/api/v1/cities", {"q": query, "limit": limit}))
     return {
         "total": body.get("total"),
         "cities": [
@@ -49,7 +49,7 @@ async def ey_specialties(
     Use it to turn a word like 'قلب' or 'پوست' into the exact specialty for ey_search_doctors(specialty=...)
     when the user's word is ambiguous (heart: «قلب و عروق» cardiology or «جراح قلب» heart surgery).
     """
-    body = await fetch("/api/v1/specialties", {"q": query, "limit": limit})
+    body = as_object(await fetch("/api/v1/specialties", {"q": query, "limit": limit}))
     return {
         "total": body.get("total"),
         "specialties": [

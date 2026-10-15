@@ -126,3 +126,20 @@ async def test_bad_request_shows_the_api_error(client, api):
     api[SEARCH] = (400, {"error": "Provide at least one of: name, city, specialty."})
     result = await client.call_tool("ey_search_doctors", {"name": "--"})
     assert result.is_error and "HTTP 400" in result.content[0].text and "Provide at least one" in result.content[0].text
+
+
+async def test_weekly_hours_without_a_day_are_skipped(client, api):
+    body = fixture("search_full.json")
+    body["bestMatch"]["clinics"][0]["weeklyHours"] = [
+        {"shifts": ["09:00-11:00"]},  # no "day": unusable, not an error
+        {"day": "friday", "closed": True, "shifts": []},
+    ]
+    api[SEARCH] = body
+    best = (await search(client, name="سینا شیری همدانی", alternatives=0))["best_match"]
+    assert best["clinics"][0]["weekly_hours"] == {"friday": []}
+
+
+async def test_non_object_body_is_a_clear_error_not_a_crash(client, api):
+    api[SEARCH] = ["not", "an", "object"]
+    result = await client.call_tool("ey_search_doctors", {"city": "تهران"})
+    assert result.is_error and "unexpected response" in result.content[0].text

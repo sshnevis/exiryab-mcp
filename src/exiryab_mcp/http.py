@@ -67,6 +67,13 @@ def _get_client() -> tuple[httpx.AsyncClient, asyncio.Semaphore]:
     return _client, _limit
 
 
+def as_object(body: Any, host: str | None = None) -> dict[str, Any]:
+    """The API bodies are JSON objects; a list or string means a broken deployment, not a tool bug."""
+    if not isinstance(body, dict):
+        raise ApiError(f"{host or urlsplit(base_url()).hostname} returned an unexpected response (expected a JSON object).")
+    return body
+
+
 async def fetch(path: str, params: dict[str, Any] | None = None) -> Any:
     """GET an API path (e.g. '/api/v1/cities') and return the parsed JSON body. None params are dropped."""
     client, limit = _get_client()

@@ -7,7 +7,7 @@ from typing import Annotated, Any
 from mcp.server.mcpserver.exceptions import ToolError
 from pydantic import Field
 
-from .http import fetch
+from .http import as_object, fetch
 from .registry import tool
 
 ALTERNATIVE_BIO_CHARS = 300  # the best match keeps its full bio (the API caps it at 1200)
@@ -60,9 +60,11 @@ async def ey_search_doctors(
     """
     if not any(v and v.strip() for v in (name, city, specialty)):
         raise ToolError("Give at least one of name, city or specialty.")
-    body = await fetch(
-        "/api/v1/doctors/search",
-        {"name": name, "city": city, "specialty": specialty, "alternatives": alternatives},
+    body = as_object(
+        await fetch(
+            "/api/v1/doctors/search",
+            {"name": name, "city": city, "specialty": specialty, "alternatives": alternatives},
+        )
     )
     q = body.get("query") or {}
     resolved_city = q.get("city") or {}
@@ -126,7 +128,11 @@ def doctor(d: dict[str, Any], bio_chars: int | None = None) -> dict[str, Any]:
 def clinic(c: dict[str, Any]) -> dict[str, Any]:
     city = c.get("city") or {}
     loc = c.get("location")
-    hours = {h["day"]: [] if h.get("closed") else h.get("shifts") or [] for h in c.get("weeklyHours") or []}
+    hours = {
+        h["day"]: [] if h.get("closed") else h.get("shifts") or []
+        for h in c.get("weeklyHours") or []
+        if h.get("day")
+    }
     return _compact(
         {
             "type": c.get("facilityType"),

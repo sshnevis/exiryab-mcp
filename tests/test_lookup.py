@@ -32,3 +32,9 @@ async def test_specialties_name_their_parent(client, api):
     assert [s["name"] for s in data["specialties"][:2]] == ["قلب و عروق", "جراح قلب"]
     assert data["specialties"][0]["parent"] is None and data["specialties"][0]["doctors"] == 2786
     assert data["specialties"][3]["parent"] == "کودکان (اطفال)"
+
+
+async def test_non_object_body_is_a_clear_error(client, api):
+    api["/api/v1/cities"] = "plain string body"
+    result = await client.call_tool("ey_cities", {"query": "تهران"})
+    assert result.is_error and "unexpected response" in result.content[0].text
