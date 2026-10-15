@@ -129,9 +129,7 @@ def clinic(c: dict[str, Any]) -> dict[str, Any]:
     city = c.get("city") or {}
     loc = c.get("location")
     hours = {
-        h["day"]: [] if h.get("closed") else h.get("shifts") or []
-        for h in c.get("weeklyHours") or []
-        if h.get("day")
+        h["day"]: [] if h.get("closed") else h.get("shifts") or [] for h in c.get("weeklyHours") or [] if h.get("day")
     }
     return _compact(
         {

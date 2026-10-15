@@ -70,7 +70,9 @@ def _get_client() -> tuple[httpx.AsyncClient, asyncio.Semaphore]:
 def as_object(body: Any, host: str | None = None) -> dict[str, Any]:
     """The API bodies are JSON objects; a list or string means a broken deployment, not a tool bug."""
     if not isinstance(body, dict):
-        raise ApiError(f"{host or urlsplit(base_url()).hostname} returned an unexpected response (expected a JSON object).")
+        raise ApiError(
+            f"{host or urlsplit(base_url()).hostname} returned an unexpected response (expected a JSON object)."
+        )
     return body
 
 
